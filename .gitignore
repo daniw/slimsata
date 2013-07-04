@@ -1,0 +1,11 @@
+# temporary LaTeX files
+*.aux
+*.log
+*.toc
+*.out
+*.tmp
+*.bak
+
+# eagle backup files
+*.s#*
+*.b#*
