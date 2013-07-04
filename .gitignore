@@ -1,3 +1,6 @@
+# Datasheets
+datasheets/
+
 # temporary LaTeX files
 *.aux
 *.log
