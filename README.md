@@ -1,4 +1,4 @@
 slimsata
 ========
 
-Adapter um eine SATA Festplatte in en Slimline CD Slot einzubauen
+Adapter um eine 2.5" SATA Festplatte in einen Slimline CD/DVD Slot einzubauen. 
