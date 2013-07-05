@@ -8,6 +8,8 @@ datasheets/
 *.out
 *.tmp
 *.bak
+# compiled pdf
+doc/slimsata_main.pdf
 
 # eagle backup files
 *.s#*
