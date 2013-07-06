@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -56,6 +56,30 @@
 </layers>
 <library>
 <packages>
+<package name="MOLEX_47300-1005">
+<pad name="MECH2" x="16.35" y="3" drill="2.3" diameter="3.9"/>
+<pad name="MECH1" x="-16.35" y="3" drill="2.3" diameter="3.9"/>
+<hole x="-13.5" y="5.6" drill="0.9"/>
+<hole x="13.5" y="5.6" drill="0.9"/>
+<smd name="MECH3" x="-1.38" y="6.6" dx="2.93" dy="2" layer="1"/>
+<smd name="S7" x="1.76" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S6" x="3.03" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S5" x="4.3" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S4" x="5.57" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S3" x="6.84" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S2" x="8.11" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P1" x="-4.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P2" x="-5.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P3" x="-6.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P4" x="-7.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P5" x="-8.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P6" x="-9.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<smd name="S1" x="9.38" y="6.45" dx="0.7" dy="1.5" layer="1"/>
+<wire x1="-14.35" y1="0" x2="14.35" y2="0" width="0.127" layer="51"/>
+<wire x1="14.35" y1="0" x2="14.35" y2="6.4" width="0.127" layer="51"/>
+<wire x1="14.35" y1="6.4" x2="-14.35" y2="6.4" width="0.127" layer="51"/>
+<wire x1="-14.35" y1="6.4" x2="-14.35" y2="0" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SATA_DATA">
@@ -110,6 +134,17 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="MOLEX_47300-1005">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
