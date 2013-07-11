@@ -172,7 +172,7 @@
 <pin name="5V3" x="0" y="-2.54" length="short" rot="R180"/>
 <pin name="GND4" x="0" y="-5.08" length="short" rot="R180"/>
 <pin name="STAG" x="0" y="-7.62" length="short" rot="R180"/>
-<pin name="GND" x="0" y="-10.16" length="short" rot="R180"/>
+<pin name="GND5" x="0" y="-10.16" length="short" rot="R180"/>
 <pin name="12V1" x="0" y="-12.7" length="short" rot="R180"/>
 <pin name="12V2" x="0" y="-15.24" length="short" rot="R180"/>
 <pin name="12V3" x="0" y="-17.78" length="short" rot="R180"/>
@@ -234,11 +234,40 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOLEX_47018">
+<deviceset name="MOLEX_47018" prefix="CON" uservalue="yes">
 <gates>
+<gate name="G$1" symbol="SATA_DATA" x="-25.4" y="0"/>
+<gate name="G$2" symbol="SATA_POWER_15" x="0" y="0"/>
+<gate name="G$3" symbol="SATA_MECH_2" x="25.4" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="MOLEX_47018">
+<connects>
+<connect gate="G$1" pin="A+" pad="S2"/>
+<connect gate="G$1" pin="A-" pad="S3"/>
+<connect gate="G$1" pin="B+" pad="S6"/>
+<connect gate="G$1" pin="B-" pad="S5"/>
+<connect gate="G$1" pin="GND1" pad="S1"/>
+<connect gate="G$1" pin="GND2" pad="S4"/>
+<connect gate="G$1" pin="GND3" pad="S7"/>
+<connect gate="G$2" pin="12V1" pad="P13"/>
+<connect gate="G$2" pin="12V2" pad="P14"/>
+<connect gate="G$2" pin="12V3" pad="P15"/>
+<connect gate="G$2" pin="3.3V1" pad="P1"/>
+<connect gate="G$2" pin="3.3V2" pad="P2"/>
+<connect gate="G$2" pin="3.3V3" pad="P3"/>
+<connect gate="G$2" pin="5V1" pad="P7"/>
+<connect gate="G$2" pin="5V2" pad="P8"/>
+<connect gate="G$2" pin="5V3" pad="P9"/>
+<connect gate="G$2" pin="GND1" pad="P4"/>
+<connect gate="G$2" pin="GND2" pad="P5"/>
+<connect gate="G$2" pin="GND3" pad="P6"/>
+<connect gate="G$2" pin="GND4" pad="P10"/>
+<connect gate="G$2" pin="GND5" pad="P12"/>
+<connect gate="G$2" pin="STAG" pad="P11"/>
+<connect gate="G$3" pin="MECH1" pad="MECH1"/>
+<connect gate="G$3" pin="MECH2" pad="MECH2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
