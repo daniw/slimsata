@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -133,7 +133,7 @@
 <pin name="GND2" x="0" y="0" length="short" rot="R180"/>
 <pin name="B-" x="0" y="-2.54" length="short" rot="R180"/>
 <pin name="B+" x="0" y="-5.08" length="short" rot="R180"/>
-<pin name="P$7" x="0" y="-7.62" length="short" rot="R180"/>
+<pin name="GND3" x="0" y="-7.62" length="short" rot="R180"/>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 <circle x="-3.048" y="7.62" radius="0.508" width="0.254" layer="94"/>
@@ -234,11 +234,43 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOLEX_47300-1005">
+<deviceset name="MOLEX_47018">
 <gates>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX_47300-100X/101X" prefix="CON" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SATA_DATA" x="-25.4" y="0"/>
+<gate name="G$2" symbol="SATA_POWER_6" x="0" y="0"/>
+<gate name="G$3" symbol="SATA_MECH_3" x="25.4" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_47300-1005">
+<connects>
+<connect gate="G$1" pin="A+" pad="S2"/>
+<connect gate="G$1" pin="A-" pad="S3"/>
+<connect gate="G$1" pin="B+" pad="S6"/>
+<connect gate="G$1" pin="B-" pad="S5"/>
+<connect gate="G$1" pin="GND1" pad="S1"/>
+<connect gate="G$1" pin="GND2" pad="S4"/>
+<connect gate="G$1" pin="GND3" pad="S7"/>
+<connect gate="G$2" pin="5V1" pad="P2"/>
+<connect gate="G$2" pin="5V2" pad="P3"/>
+<connect gate="G$2" pin="DIAG" pad="P4"/>
+<connect gate="G$2" pin="GND1" pad="P5"/>
+<connect gate="G$2" pin="GND2" pad="P6"/>
+<connect gate="G$2" pin="PRES" pad="P1"/>
+<connect gate="G$3" pin="MECH1" pad="MECH1"/>
+<connect gate="G$3" pin="MECH2" pad="MECH2"/>
+<connect gate="G$3" pin="MECH3" pad="MECH3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
