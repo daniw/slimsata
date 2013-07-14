@@ -56,9 +56,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="16.942" y2="0" width="0" layer="20"/>
+<wire x1="16.942" y1="0" x2="16.942" y2="80" width="0" layer="20"/>
+<wire x1="16.942" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -320,8 +320,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CON1" library="sata" package="MOLEX_47018" value="" x="59.69" y="0"/>
-<element name="CON2" library="sata" package="MOLEX_47300-1005" value="" x="19.05" y="8.89" rot="R180"/>
+<element name="CON1" library="sata" package="MOLEX_47018" value="" x="17.018" y="58.928" rot="R90"/>
+<element name="CON2" library="sata" package="MOLEX_47300-1005" value="" x="0" y="21.082" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -337,17 +337,17 @@ design rules under a new name.</description>
 <contactref element="CON1" pad="P12"/>
 <contactref element="CON2" pad="P6"/>
 <contactref element="CON2" pad="P5"/>
-<wire x1="35.4" y1="5.89" x2="40.98" y2="2.84" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="2.44" x2="35.4" y2="5.89" width="0" layer="19" extent="1-1"/>
-<wire x1="27.5" y1="2.44" x2="28.5" y2="2.44" width="0" layer="19" extent="1-1"/>
-<wire x1="20.43" y1="2.29" x2="27.5" y2="2.44" width="0" layer="19" extent="1-1"/>
-<wire x1="62.865" y1="5.08" x2="20.43" y2="2.29" width="0" layer="19" extent="1-1"/>
-<wire x1="64.135" y1="5.08" x2="62.865" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="61.595" y1="4.58" x2="62.865" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="69.215" y1="5.08" x2="64.135" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="71.755" y1="4.58" x2="69.215" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="78.4" y1="2.84" x2="71.755" y2="4.58" width="0" layer="19" extent="1-1"/>
-<wire x1="2.7" y1="5.89" x2="78.4" y2="2.84" width="0" layer="19" extent="1-1"/>
+<wire x1="12.438" y1="70.993" x2="14.178" y2="77.638" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="68.453" x2="12.438" y2="70.993" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="63.373" x2="11.938" y2="68.453" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="62.103" x2="11.938" y2="63.373" width="0" layer="19" extent="1-1"/>
+<wire x1="12.438" y1="60.833" x2="11.938" y2="62.103" width="0" layer="19" extent="1-1"/>
+<wire x1="14.178" y1="40.218" x2="12.438" y2="60.833" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="37.432" x2="14.178" y2="40.218" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="30.532" x2="3" y2="37.432" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="29.532" x2="6.45" y2="30.532" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="22.462" x2="6.45" y2="29.532" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="4.732" x2="6.6" y2="22.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="CON2" pad="S1"/>
@@ -356,31 +356,31 @@ design rules under a new name.</description>
 <contactref element="CON2" pad="S4"/>
 <contactref element="CON1" pad="S7"/>
 <contactref element="CON2" pad="S7"/>
-<wire x1="47.625" y1="5.08" x2="43.815" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="51.435" y1="5.08" x2="47.625" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="17.29" y1="2.44" x2="51.435" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="13.48" y1="2.44" x2="17.29" y2="2.44" width="0" layer="19" extent="1-1"/>
-<wire x1="9.67" y1="2.44" x2="13.48" y2="2.44" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="46.863" x2="11.938" y2="50.673" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="43.053" x2="11.938" y2="46.863" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="19.322" x2="11.938" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="15.512" x2="6.45" y2="19.322" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="11.702" x2="6.45" y2="15.512" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="CON1" pad="S2"/>
 <contactref element="CON2" pad="S2"/>
-<wire x1="10.94" y1="2.44" x2="45.085" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="12.972" x2="11.938" y2="44.323" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="CON1" pad="S3"/>
 <contactref element="CON2" pad="S3"/>
-<wire x1="12.21" y1="2.44" x2="46.355" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="14.242" x2="11.938" y2="45.593" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="CON1" pad="S5"/>
 <contactref element="CON2" pad="S5"/>
-<wire x1="14.75" y1="2.44" x2="48.895" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="16.782" x2="11.938" y2="48.133" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="CON1" pad="S6"/>
 <contactref element="CON2" pad="S6"/>
-<wire x1="16.02" y1="2.44" x2="50.165" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="18.052" x2="11.938" y2="49.403" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="CON1" pad="P7"/>
@@ -388,10 +388,10 @@ design rules under a new name.</description>
 <contactref element="CON1" pad="P8"/>
 <contactref element="CON2" pad="P2"/>
 <contactref element="CON2" pad="P3"/>
-<wire x1="66.675" y1="5.08" x2="65.405" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="67.945" y1="5.08" x2="66.675" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="24.5" y1="2.44" x2="65.405" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="25.5" y1="2.44" x2="24.5" y2="2.44" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="65.913" x2="11.938" y2="67.183" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="64.643" x2="11.938" y2="65.913" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="27.532" x2="11.938" y2="64.643" width="0" layer="19" extent="1-1"/>
+<wire x1="6.45" y1="26.532" x2="6.45" y2="27.532" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
