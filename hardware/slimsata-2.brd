@@ -404,7 +404,7 @@ design rules under a new name.</description>
 <wire x1="7.62" y1="17.653" x2="7.874" y2="17.653" width="0.254" layer="1"/>
 <wire x1="7.874" y1="17.653" x2="9.652" y2="19.431" width="0.254" layer="1"/>
 <wire x1="9.652" y1="30.48" x2="9.652" y2="19.431" width="0.254" layer="1"/>
-<wire x1="9.652" y1="30.48" x2="12.954" y2="33.782" width="0.254" layer="1"/>
+<wire x1="12.954" y1="33.782" x2="9.652" y2="30.48" width="0.254" layer="1"/>
 <wire x1="15.24" y1="34.163" x2="13.843" y2="34.163" width="0.254" layer="1"/>
 <wire x1="13.843" y1="34.163" x2="13.462" y2="33.782" width="0.254" layer="1"/>
 <wire x1="13.462" y1="33.782" x2="12.954" y2="33.782" width="0.254" layer="1"/>
@@ -453,14 +453,14 @@ design rules under a new name.</description>
 <contactref element="CON2" pad="P6"/>
 <contactref element="CON2" pad="P5"/>
 <polygon width="0.6096" layer="1">
-<vertex x="0.254" y="76.454"/>
-<vertex x="20.066" y="76.454"/>
+<vertex x="0.254" y="0.254"/>
+<vertex x="20.066" y="0.254"/>
 <vertex x="20.066" y="64.516"/>
 <vertex x="0.254" y="64.516"/>
 </polygon>
 <polygon width="0.6096" layer="16">
-<vertex x="0.254" y="76.454"/>
-<vertex x="20.066" y="76.454"/>
+<vertex x="0.254" y="0.254"/>
+<vertex x="20.066" y="0.254"/>
 <vertex x="20.066" y="64.516"/>
 <vertex x="0.254" y="64.516"/>
 </polygon>
@@ -509,7 +509,6 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="31.623" x2="13.081" y2="31.623" width="0.6096" layer="1"/>
 <wire x1="13.081" y1="31.623" x2="12.954" y2="31.496" width="0.6096" layer="1"/>
 <wire x1="15.24" y1="27.813" x2="15.24" y2="26.924" width="0.6096" layer="1"/>
-<wire x1="15.24" y1="26.924" x2="13.716" y2="25.4" width="0.6096" layer="1"/>
 <wire x1="17.48" y1="24.978" x2="14.138" y2="24.978" width="0.6096" layer="1"/>
 <wire x1="14.138" y1="24.978" x2="13.716" y2="25.4" width="0.6096" layer="1"/>
 <wire x1="15.24" y1="35.433" x2="13.589" y2="35.433" width="0.6096" layer="1"/>
@@ -579,33 +578,46 @@ design rules under a new name.</description>
 <wire x1="8.526" y1="22.462" x2="8.636" y2="22.352" width="0.6096" layer="1"/>
 <wire x1="5.08" y1="30.226" x2="5.08" y2="29.718" width="0.6096" layer="1"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="29.718" width="0.6096" layer="16"/>
+<wire x1="15.24" y1="26.924" x2="13.716" y2="25.4" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <errors>
+<approved hash="4,1,7f812603d6e560fa"/>
+<approved hash="4,1,1c9b206f3eb71fa5"/>
+<approved hash="4,1,c9de22d5147e1a4c"/>
+<approved hash="4,1,0655086b3ec0d5c7"/>
+<approved hash="4,1,7dc724cdd6956340"/>
+<approved hash="4,1,0383223122cd0145"/>
+<approved hash="4,1,80886b9f5d34531a"/>
+<approved hash="4,1,50ef5125678e837d"/>
+<approved hash="4,1,63146fee9745374d"/>
+<approved hash="4,1,2750a0add4faf291"/>
+<approved hash="4,1,330aacf6ac3633ca"/>
+<approved hash="4,1,3b0aa4f6ab3634ca"/>
+<approved hash="4,1,a6d07e2a82c236d3"/>
+<approved hash="4,1,ef6eb49fca63f01d"/>
 <approved hash="4,1,2cd62494d8bb7879"/>
 <approved hash="4,1,6114fbdf9016b4e1"/>
 <approved hash="4,1,352aaad6abd6342a"/>
 <approved hash="4,1,340aabf6ab96346a"/>
-<approved hash="4,1,b4e8ecfd8ee9a8d9"/>
 <approved hash="4,1,ebdc35e4ccf87a59"/>
-<approved hash="4,1,63146fee9745374d"/>
-<approved hash="4,1,2750a0add4faf291"/>
-<approved hash="4,1,3b0aa4f6ab3634ca"/>
-<approved hash="4,1,330aacf6ac3633ca"/>
-<approved hash="4,1,a6d07e2a82c236d3"/>
-<approved hash="4,1,ef6eb49fca63f01d"/>
-<approved hash="4,16,2750a0add4faf291"/>
+<approved hash="4,1,b4e8ecfd8ee9a8d9"/>
+<approved hash="4,1,e7c9d2f3d2f7e7cd"/>
+<approved hash="4,1,e7c9d2f3d2f7e7cd"/>
+<approved hash="4,1,0652a5a69631d5c7"/>
+<approved hash="4,1,0652a5a69631d5c7"/>
+<approved hash="4,16,6114fbdf9016b4e1"/>
+<approved hash="4,16,2cd62494d8bb7879"/>
+<approved hash="4,16,340aabf6ab96346a"/>
+<approved hash="4,16,352aaad6abd6342a"/>
+<approved hash="4,16,b4e8ecfd8ee9a8d9"/>
+<approved hash="4,16,ebdc35e4ccf87a59"/>
 <approved hash="4,16,63146fee9745374d"/>
+<approved hash="4,16,2750a0add4faf291"/>
 <approved hash="4,16,330aacf6ac3633ca"/>
 <approved hash="4,16,3b0aa4f6ab3634ca"/>
 <approved hash="4,16,a6d07e2a82c236d3"/>
 <approved hash="4,16,ef6eb49fca63f01d"/>
-<approved hash="4,16,6114fbdf9016b4e1"/>
-<approved hash="4,16,2cd62494d8bb7879"/>
-<approved hash="4,16,352aaad6abd6342a"/>
-<approved hash="4,16,340aabf6ab96346a"/>
-<approved hash="4,16,b4e8ecfd8ee9a8d9"/>
-<approved hash="4,16,ebdc35e4ccf87a59"/>
 </errors>
 </board>
 </drawing>
