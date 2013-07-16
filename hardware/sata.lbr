@@ -127,13 +127,13 @@
 </packages>
 <symbols>
 <symbol name="SATA_DATA">
-<pin name="GND1" x="0" y="7.62" length="short" rot="R180"/>
-<pin name="A+" x="0" y="5.08" length="short" rot="R180"/>
-<pin name="A-" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="GND2" x="0" y="0" length="short" rot="R180"/>
-<pin name="B-" x="0" y="-2.54" length="short" rot="R180"/>
-<pin name="B+" x="0" y="-5.08" length="short" rot="R180"/>
-<pin name="GND3" x="0" y="-7.62" length="short" rot="R180"/>
+<pin name="GND1" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="A+" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A-" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND2" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="B-" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="B+" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND3" x="0" y="-7.62" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 <circle x="-3.048" y="7.62" radius="0.508" width="0.254" layer="94"/>
@@ -145,12 +145,12 @@
 <circle x="-3.048" y="-7.62" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SATA_POWER_6">
-<pin name="PRES" x="0" y="7.62" length="short" rot="R180"/>
-<pin name="5V1" x="0" y="5.08" length="short" rot="R180"/>
-<pin name="5V2" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="DIAG" x="0" y="0" length="short" rot="R180"/>
-<pin name="GND1" x="0" y="-2.54" length="short" rot="R180"/>
-<pin name="GND2" x="0" y="-5.08" length="short" rot="R180"/>
+<pin name="PRES" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="5V1" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="5V2" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="DIAG" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="GND1" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND2" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 <circle x="-3.048" y="7.62" radius="0.508" width="0.254" layer="94"/>
@@ -161,21 +161,21 @@
 <circle x="-3.048" y="-5.08" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SATA_POWER_15">
-<pin name="3.3V1" x="0" y="17.78" length="short" rot="R180"/>
-<pin name="3.3V2" x="0" y="15.24" length="short" rot="R180"/>
-<pin name="3.3V3" x="0" y="12.7" length="short" rot="R180"/>
-<pin name="GND1" x="0" y="10.16" length="short" rot="R180"/>
-<pin name="GND2" x="0" y="7.62" length="short" rot="R180"/>
-<pin name="GND3" x="0" y="5.08" length="short" rot="R180"/>
-<pin name="5V1" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="5V2" x="0" y="0" length="short" rot="R180"/>
-<pin name="5V3" x="0" y="-2.54" length="short" rot="R180"/>
-<pin name="GND4" x="0" y="-5.08" length="short" rot="R180"/>
-<pin name="STAG" x="0" y="-7.62" length="short" rot="R180"/>
-<pin name="GND5" x="0" y="-10.16" length="short" rot="R180"/>
-<pin name="12V1" x="0" y="-12.7" length="short" rot="R180"/>
-<pin name="12V2" x="0" y="-15.24" length="short" rot="R180"/>
-<pin name="12V3" x="0" y="-17.78" length="short" rot="R180"/>
+<pin name="3.3V1" x="0" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V2" x="0" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V3" x="0" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND1" x="0" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GND2" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="GND3" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="5V1" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="5V2" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="5V3" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND4" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="STAG" x="0" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="GND5" x="0" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="12V1" x="0" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="12V2" x="0" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="12V3" x="0" y="-17.78" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="22.86" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="20.32" size="1.27" layer="96">&gt;VALUE</text>
 <circle x="-3.048" y="17.78" radius="0.508" width="0.254" layer="94"/>
@@ -195,15 +195,15 @@
 <circle x="-3.048" y="-17.78" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SATA_POWER_9">
-<pin name="3.3V1" x="0" y="10.16" length="short" rot="R180"/>
-<pin name="3.3V2" x="0" y="7.62" length="short" rot="R180"/>
-<pin name="GND1" x="0" y="5.08" length="short" rot="R180"/>
-<pin name="GND2" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="5V1" x="0" y="0" length="short" rot="R180"/>
-<pin name="5V2" x="0" y="-2.54" length="short" rot="R180"/>
-<pin name="RES" x="0" y="-5.08" length="short" rot="R180"/>
-<pin name="VEND1" x="0" y="-7.62" length="short" rot="R180"/>
-<pin name="VEND2" x="0" y="-10.16" length="short" rot="R180"/>
+<pin name="3.3V1" x="0" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V2" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="GND1" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND2" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="5V1" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="5V2" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="RES" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VEND1" x="0" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VEND2" x="0" y="-10.16" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-5.08" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 <circle x="-3.048" y="10.16" radius="0.508" width="0.254" layer="94"/>
@@ -217,9 +217,9 @@
 <circle x="-3.048" y="-10.16" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SATA_MECH_3">
-<pin name="MECH1" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="MECH2" x="0" y="0" length="short" rot="R180"/>
-<pin name="MECH3" x="0" y="-2.54" length="short" rot="R180"/>
+<pin name="MECH1" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="MECH2" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="MECH3" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <circle x="-3.048" y="2.54" radius="0.508" width="0.254" layer="94"/>
@@ -227,46 +227,48 @@
 <circle x="-3.048" y="-2.54" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SATA_MECH_2">
-<pin name="MECH1" x="0" y="0" length="short" rot="R180"/>
-<pin name="MECH2" x="0" y="-2.54" length="short" rot="R180"/>
+<pin name="MECH1" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="MECH2" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
 <text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
+<circle x="-3.048" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="-3.048" y="-2.54" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOLEX_47018" prefix="CON" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SATA_DATA" x="-25.4" y="0"/>
-<gate name="G$2" symbol="SATA_POWER_15" x="0" y="0"/>
-<gate name="G$3" symbol="SATA_MECH_2" x="25.4" y="0"/>
+<gate name="DATA" symbol="SATA_DATA" x="-25.4" y="0"/>
+<gate name="POWER" symbol="SATA_POWER_15" x="0" y="0"/>
+<gate name="MECH" symbol="SATA_MECH_2" x="25.4" y="0"/>
 </gates>
 <devices>
 <device name="" package="MOLEX_47018">
 <connects>
-<connect gate="G$1" pin="A+" pad="S2"/>
-<connect gate="G$1" pin="A-" pad="S3"/>
-<connect gate="G$1" pin="B+" pad="S6"/>
-<connect gate="G$1" pin="B-" pad="S5"/>
-<connect gate="G$1" pin="GND1" pad="S1"/>
-<connect gate="G$1" pin="GND2" pad="S4"/>
-<connect gate="G$1" pin="GND3" pad="S7"/>
-<connect gate="G$2" pin="12V1" pad="P13"/>
-<connect gate="G$2" pin="12V2" pad="P14"/>
-<connect gate="G$2" pin="12V3" pad="P15"/>
-<connect gate="G$2" pin="3.3V1" pad="P1"/>
-<connect gate="G$2" pin="3.3V2" pad="P2"/>
-<connect gate="G$2" pin="3.3V3" pad="P3"/>
-<connect gate="G$2" pin="5V1" pad="P7"/>
-<connect gate="G$2" pin="5V2" pad="P8"/>
-<connect gate="G$2" pin="5V3" pad="P9"/>
-<connect gate="G$2" pin="GND1" pad="P4"/>
-<connect gate="G$2" pin="GND2" pad="P5"/>
-<connect gate="G$2" pin="GND3" pad="P6"/>
-<connect gate="G$2" pin="GND4" pad="P10"/>
-<connect gate="G$2" pin="GND5" pad="P12"/>
-<connect gate="G$2" pin="STAG" pad="P11"/>
-<connect gate="G$3" pin="MECH1" pad="MECH1"/>
-<connect gate="G$3" pin="MECH2" pad="MECH2"/>
+<connect gate="DATA" pin="A+" pad="S2"/>
+<connect gate="DATA" pin="A-" pad="S3"/>
+<connect gate="DATA" pin="B+" pad="S6"/>
+<connect gate="DATA" pin="B-" pad="S5"/>
+<connect gate="DATA" pin="GND1" pad="S1"/>
+<connect gate="DATA" pin="GND2" pad="S4"/>
+<connect gate="DATA" pin="GND3" pad="S7"/>
+<connect gate="MECH" pin="MECH1" pad="MECH1"/>
+<connect gate="MECH" pin="MECH2" pad="MECH2"/>
+<connect gate="POWER" pin="12V1" pad="P13"/>
+<connect gate="POWER" pin="12V2" pad="P14"/>
+<connect gate="POWER" pin="12V3" pad="P15"/>
+<connect gate="POWER" pin="3.3V1" pad="P1"/>
+<connect gate="POWER" pin="3.3V2" pad="P2"/>
+<connect gate="POWER" pin="3.3V3" pad="P3"/>
+<connect gate="POWER" pin="5V1" pad="P7"/>
+<connect gate="POWER" pin="5V2" pad="P8"/>
+<connect gate="POWER" pin="5V3" pad="P9"/>
+<connect gate="POWER" pin="GND1" pad="P4"/>
+<connect gate="POWER" pin="GND2" pad="P5"/>
+<connect gate="POWER" pin="GND3" pad="P6"/>
+<connect gate="POWER" pin="GND4" pad="P10"/>
+<connect gate="POWER" pin="GND5" pad="P12"/>
+<connect gate="POWER" pin="STAG" pad="P11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -276,29 +278,29 @@
 </deviceset>
 <deviceset name="MOLEX_47300-100X/101X" prefix="CON" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SATA_DATA" x="-25.4" y="0"/>
-<gate name="G$2" symbol="SATA_POWER_6" x="0" y="0"/>
-<gate name="G$3" symbol="SATA_MECH_3" x="25.4" y="0"/>
+<gate name="DATA" symbol="SATA_DATA" x="-25.4" y="0"/>
+<gate name="POWER" symbol="SATA_POWER_6" x="0" y="0"/>
+<gate name="MECH" symbol="SATA_MECH_3" x="25.4" y="0"/>
 </gates>
 <devices>
 <device name="" package="MOLEX_47300-1005">
 <connects>
-<connect gate="G$1" pin="A+" pad="S2"/>
-<connect gate="G$1" pin="A-" pad="S3"/>
-<connect gate="G$1" pin="B+" pad="S6"/>
-<connect gate="G$1" pin="B-" pad="S5"/>
-<connect gate="G$1" pin="GND1" pad="S1"/>
-<connect gate="G$1" pin="GND2" pad="S4"/>
-<connect gate="G$1" pin="GND3" pad="S7"/>
-<connect gate="G$2" pin="5V1" pad="P2"/>
-<connect gate="G$2" pin="5V2" pad="P3"/>
-<connect gate="G$2" pin="DIAG" pad="P4"/>
-<connect gate="G$2" pin="GND1" pad="P5"/>
-<connect gate="G$2" pin="GND2" pad="P6"/>
-<connect gate="G$2" pin="PRES" pad="P1"/>
-<connect gate="G$3" pin="MECH1" pad="MECH1"/>
-<connect gate="G$3" pin="MECH2" pad="MECH2"/>
-<connect gate="G$3" pin="MECH3" pad="MECH3"/>
+<connect gate="DATA" pin="A+" pad="S2"/>
+<connect gate="DATA" pin="A-" pad="S3"/>
+<connect gate="DATA" pin="B+" pad="S6"/>
+<connect gate="DATA" pin="B-" pad="S5"/>
+<connect gate="DATA" pin="GND1" pad="S1"/>
+<connect gate="DATA" pin="GND2" pad="S4"/>
+<connect gate="DATA" pin="GND3" pad="S7"/>
+<connect gate="MECH" pin="MECH1" pad="MECH1"/>
+<connect gate="MECH" pin="MECH2" pad="MECH2"/>
+<connect gate="MECH" pin="MECH3" pad="MECH3"/>
+<connect gate="POWER" pin="5V1" pad="P2"/>
+<connect gate="POWER" pin="5V2" pad="P3"/>
+<connect gate="POWER" pin="DIAG" pad="P4"/>
+<connect gate="POWER" pin="GND1" pad="P5"/>
+<connect gate="POWER" pin="GND2" pad="P6"/>
+<connect gate="POWER" pin="PRES" pad="P1"/>
 </connects>
 <technologies>
 <technology name=""/>
