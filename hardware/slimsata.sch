@@ -298,10 +298,15 @@
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="data" width="0" drill="0">
+</class>
+<class number="2" name="gnd" width="0" drill="0">
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <parts>
 <part name="CON1" library="sata" deviceset="MOLEX_67492" device=""/>
-<part name="CON2" library="sata" deviceset="MOLEX_47300-100X/101X" device=""/>
+<part name="CON2" library="sata" deviceset="MOLEX_47300-100X/101X" device="" value="MOLEX_47300"/>
 </parts>
 <sheets>
 <sheet>
@@ -318,28 +323,28 @@
 <busses>
 </busses>
 <nets>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="A+"/>
 <pinref part="CON2" gate="DATA" pin="A+"/>
 <wire x1="17.78" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="A-"/>
 <pinref part="CON2" gate="DATA" pin="A-"/>
 <wire x1="17.78" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="B-"/>
 <pinref part="CON2" gate="DATA" pin="B-"/>
 <wire x1="17.78" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="B+"/>
 <pinref part="CON2" gate="DATA" pin="B+"/>
@@ -368,7 +373,7 @@
 <junction x="38.1" y="45.72"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="2">
 <segment>
 <pinref part="CON2" gate="DATA" pin="GND1"/>
 <pinref part="CON1" gate="DATA" pin="GND1"/>
