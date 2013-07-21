@@ -375,23 +375,6 @@
 </net>
 <net name="GND" class="2">
 <segment>
-<pinref part="CON2" gate="DATA" pin="GND1"/>
-<pinref part="CON1" gate="DATA" pin="GND1"/>
-<wire x1="17.78" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="DATA" pin="GND2"/>
-<pinref part="CON2" gate="DATA" pin="GND2"/>
-<wire x1="30.48" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="81.28" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
-<junction x="30.48" y="81.28"/>
-<junction x="30.48" y="73.66"/>
-<pinref part="CON1" gate="DATA" pin="GND3"/>
-<pinref part="CON2" gate="DATA" pin="GND3"/>
-<wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="73.66" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<junction x="30.48" y="66.04"/>
 <pinref part="CON1" gate="MECH" pin="MECH2"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
@@ -437,6 +420,23 @@
 <pinref part="CON2" gate="POWER" pin="GND1"/>
 <wire x1="43.18" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <junction x="30.48" y="40.64"/>
+<pinref part="CON2" gate="DATA" pin="GND3"/>
+<wire x1="30.48" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CON2" gate="DATA" pin="GND2"/>
+<pinref part="CON1" gate="DATA" pin="GND2"/>
+<wire x1="17.78" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="CON2" gate="DATA" pin="GND1"/>
+<pinref part="CON1" gate="DATA" pin="GND1"/>
+<wire x1="17.78" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<junction x="30.48" y="81.28"/>
+<wire x1="30.48" y1="81.28" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<junction x="30.48" y="73.66"/>
+<wire x1="30.48" y1="73.66" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<junction x="30.48" y="66.04"/>
+<pinref part="CON1" gate="DATA" pin="GND3"/>
+<wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="30.48" y="50.8"/>
 </segment>
