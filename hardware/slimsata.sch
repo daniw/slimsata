@@ -357,7 +357,7 @@
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="data" width="0" drill="0">
+<class number="1" name="data" width="0.8636" drill="0">
 </class>
 <class number="2" name="gnd" width="0" drill="0">
 <clearance class="1" value="0.508"/>
@@ -382,28 +382,28 @@
 <busses>
 </busses>
 <nets>
-<net name="N$5" class="1">
+<net name="A_P" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="A+"/>
 <pinref part="CON2" gate="DATA" pin="A+"/>
 <wire x1="17.78" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="1">
+<net name="A_N" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="A-"/>
 <pinref part="CON2" gate="DATA" pin="A-"/>
 <wire x1="17.78" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="1">
+<net name="B_N" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="B-"/>
 <pinref part="CON2" gate="DATA" pin="B-"/>
 <wire x1="17.78" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="1">
+<net name="B_P" class="1">
 <segment>
 <pinref part="CON1" gate="DATA" pin="B+"/>
 <pinref part="CON2" gate="DATA" pin="B+"/>
