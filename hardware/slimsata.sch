@@ -367,7 +367,7 @@
 </classes>
 <parts>
 <part name="CON1" library="sata" deviceset="MOLEX_67492" device=""/>
-<part name="CON2" library="sata" deviceset="MOLEX_47300" device="100X/101X" value="MOLEX_47300"/>
+<part name="CON2" library="sata" deviceset="MOLEX_47300" device="102X/103X" value="MOLEX_47300"/>
 </parts>
 <sheets>
 <sheet>
