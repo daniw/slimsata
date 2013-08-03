@@ -102,43 +102,7 @@
 <wire x1="20" y1="5.5" x2="-20" y2="5.5" width="0.127" layer="51"/>
 <wire x1="-20" y1="5.5" x2="-20" y2="-5.5" width="0.127" layer="51"/>
 </package>
-<package name="MOLEX_47300-102X/103X">
-<pad name="MECH2" x="13.7" y="3" drill="1" diameter="1.9304" shape="long" rot="R90"/>
-<pad name="MECH1" x="-13.7" y="3" drill="1" diameter="1.9304" shape="long" rot="R90"/>
-<hole x="-13.5" y="5.6" drill="0.9"/>
-<hole x="13.5" y="5.6" drill="0.9"/>
-<smd name="MECH3" x="-1.38" y="6.6" dx="2.93" dy="2" layer="1"/>
-<smd name="S7" x="1.76" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S6" x="3.03" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S5" x="4.3" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S4" x="5.57" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S3" x="6.84" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S2" x="8.11" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P1" x="-4.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P2" x="-5.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P3" x="-6.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P4" x="-7.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P5" x="-8.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="P6" x="-9.45" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<smd name="S1" x="9.38" y="6.45" dx="0.7" dy="1.5" layer="1"/>
-<wire x1="-14.35" y1="0" x2="14.35" y2="0" width="0.127" layer="51"/>
-<wire x1="14.35" y1="0" x2="14.35" y2="6.4" width="0.127" layer="51"/>
-<wire x1="14.35" y1="6.4" x2="-14.35" y2="6.4" width="0.127" layer="51"/>
-<wire x1="-14.35" y1="6.4" x2="-14.35" y2="0" width="0.127" layer="51"/>
-<wire x1="-13.7" y1="1.41" x2="-14.2" y2="1.91" width="0" layer="46" curve="-90"/>
-<wire x1="-14.2" y1="1.91" x2="-14.2" y2="4.09" width="0" layer="46"/>
-<wire x1="-14.2" y1="4.09" x2="-13.7" y2="4.59" width="0" layer="46" curve="-90"/>
-<wire x1="-13.7" y1="4.59" x2="-13.2" y2="4.09" width="0" layer="46" curve="-90"/>
-<wire x1="-13.2" y1="4.09" x2="-13.2" y2="1.91" width="0" layer="46"/>
-<wire x1="-13.2" y1="1.91" x2="-13.7" y2="1.41" width="0" layer="46" curve="-90"/>
-<wire x1="13.2" y1="1.91" x2="13.2" y2="4.09" width="0" layer="46"/>
-<wire x1="13.2" y1="4.09" x2="13.7" y2="4.59" width="0" layer="46" curve="-90"/>
-<wire x1="13.7" y1="4.59" x2="14.2" y2="4.09" width="0" layer="46" curve="-90"/>
-<wire x1="14.2" y1="4.09" x2="14.2" y2="1.91" width="0" layer="46"/>
-<wire x1="14.2" y1="1.91" x2="13.7" y2="1.41" width="0" layer="46" curve="-90"/>
-<wire x1="13.7" y1="1.41" x2="13.2" y2="1.91" width="0" layer="46" curve="-90"/>
-</package>
-<package name="MOLEX_47300-100X/101X">
+<package name="MOLEX_47300-100X/101X/102X/103X">
 <pad name="MECH2" x="16.35" y="3" drill="2.3" diameter="3.9"/>
 <pad name="MECH1" x="-16.35" y="3" drill="2.3" diameter="3.9"/>
 <hole x="-13.5" y="5.6" drill="0.9"/>
@@ -161,6 +125,20 @@
 <wire x1="14.35" y1="0" x2="14.35" y2="6.4" width="0.127" layer="51"/>
 <wire x1="14.35" y1="6.4" x2="-14.35" y2="6.4" width="0.127" layer="51"/>
 <wire x1="-14.35" y1="6.4" x2="-14.35" y2="0" width="0.127" layer="51"/>
+<pad name="MECH4" x="13.7" y="3" drill="1" diameter="1.9304" shape="long" rot="R90"/>
+<pad name="MECH5" x="-13.7" y="3" drill="1" diameter="1.9304" shape="long" rot="R90"/>
+<wire x1="-13.7" y1="1.41" x2="-14.2" y2="1.91" width="0" layer="46" curve="-90"/>
+<wire x1="-14.2" y1="1.91" x2="-14.2" y2="4.09" width="0" layer="46"/>
+<wire x1="-14.2" y1="4.09" x2="-13.7" y2="4.59" width="0" layer="46" curve="-90"/>
+<wire x1="-13.7" y1="4.59" x2="-13.2" y2="4.09" width="0" layer="46" curve="-90"/>
+<wire x1="-13.2" y1="4.09" x2="-13.2" y2="1.91" width="0" layer="46"/>
+<wire x1="-13.2" y1="1.91" x2="-13.7" y2="1.41" width="0" layer="46" curve="-90"/>
+<wire x1="13.2" y1="1.91" x2="13.2" y2="4.09" width="0" layer="46"/>
+<wire x1="13.2" y1="4.09" x2="13.7" y2="4.59" width="0" layer="46" curve="-90"/>
+<wire x1="13.7" y1="4.59" x2="14.2" y2="4.09" width="0" layer="46" curve="-90"/>
+<wire x1="14.2" y1="4.09" x2="14.2" y2="1.91" width="0" layer="46"/>
+<wire x1="14.2" y1="1.91" x2="13.7" y2="1.41" width="0" layer="46" curve="-90"/>
+<wire x1="13.7" y1="1.41" x2="13.2" y2="1.91" width="0" layer="46" curve="-90"/>
 </package>
 </packages>
 <symbols>
@@ -240,15 +218,19 @@
 <circle x="-3.048" y="-2.54" radius="0.508" width="0.254" layer="94"/>
 <circle x="-3.048" y="-5.08" radius="0.508" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SATA_MECH_3">
-<pin name="MECH1" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="MECH2" x="0" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="MECH3" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
-<text x="-5.08" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<symbol name="SATA_MECH_5">
+<pin name="MECH1" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="MECH2" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="MECH3" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<text x="-5.08" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<circle x="-3.048" y="5.08" radius="0.508" width="0.254" layer="94"/>
 <circle x="-3.048" y="2.54" radius="0.508" width="0.254" layer="94"/>
 <circle x="-3.048" y="0" radius="0.508" width="0.254" layer="94"/>
 <circle x="-3.048" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<pin name="MECH4" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="MECH5" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
+<circle x="-3.048" y="-5.08" radius="0.508" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -292,14 +274,14 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX_47300" prefix="CON" uservalue="yes">
+<deviceset name="MOLEX_47300_KOMBI" prefix="CON" uservalue="yes">
 <gates>
 <gate name="DATA" symbol="SATA_DATA" x="-25.4" y="0"/>
 <gate name="POWER" symbol="SATA_POWER_6" x="0" y="0"/>
-<gate name="MECH" symbol="SATA_MECH_3" x="25.4" y="0"/>
+<gate name="MECH" symbol="SATA_MECH_5" x="25.4" y="0"/>
 </gates>
 <devices>
-<device name="100X/101X" package="MOLEX_47300-100X/101X">
+<device name="" package="MOLEX_47300-100X/101X/102X/103X">
 <connects>
 <connect gate="DATA" pin="A+" pad="S2"/>
 <connect gate="DATA" pin="A-" pad="S3"/>
@@ -311,29 +293,8 @@
 <connect gate="MECH" pin="MECH1" pad="MECH1"/>
 <connect gate="MECH" pin="MECH2" pad="MECH2"/>
 <connect gate="MECH" pin="MECH3" pad="MECH3"/>
-<connect gate="POWER" pin="5V1" pad="P2"/>
-<connect gate="POWER" pin="5V2" pad="P3"/>
-<connect gate="POWER" pin="DIAG" pad="P4"/>
-<connect gate="POWER" pin="GND1" pad="P5"/>
-<connect gate="POWER" pin="GND2" pad="P6"/>
-<connect gate="POWER" pin="PRES" pad="P1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="102X/103X" package="MOLEX_47300-102X/103X">
-<connects>
-<connect gate="DATA" pin="A+" pad="S2"/>
-<connect gate="DATA" pin="A-" pad="S3"/>
-<connect gate="DATA" pin="B+" pad="S6"/>
-<connect gate="DATA" pin="B-" pad="S5"/>
-<connect gate="DATA" pin="GND1" pad="S1"/>
-<connect gate="DATA" pin="GND2" pad="S4"/>
-<connect gate="DATA" pin="GND3" pad="S7"/>
-<connect gate="MECH" pin="MECH1" pad="MECH1"/>
-<connect gate="MECH" pin="MECH2" pad="MECH2"/>
-<connect gate="MECH" pin="MECH3" pad="MECH3"/>
+<connect gate="MECH" pin="MECH4" pad="MECH4"/>
+<connect gate="MECH" pin="MECH5" pad="MECH5"/>
 <connect gate="POWER" pin="5V1" pad="P2"/>
 <connect gate="POWER" pin="5V2" pad="P3"/>
 <connect gate="POWER" pin="DIAG" pad="P4"/>
@@ -367,7 +328,7 @@
 </classes>
 <parts>
 <part name="CON1" library="sata" deviceset="MOLEX_67492" device=""/>
-<part name="CON2" library="sata" deviceset="MOLEX_47300" device="102X/103X" value="MOLEX_47300"/>
+<part name="CON2" library="sata" deviceset="MOLEX_47300_KOMBI" device="" value="MOLEX_47300"/>
 </parts>
 <sheets>
 <sheet>
@@ -379,7 +340,7 @@
 <instance part="CON1" gate="MECH" x="17.78" y="10.16"/>
 <instance part="CON2" gate="DATA" x="43.18" y="73.66" rot="MR0"/>
 <instance part="CON2" gate="POWER" x="43.18" y="43.18" rot="MR0"/>
-<instance part="CON2" gate="MECH" x="43.18" y="15.24" rot="MR0"/>
+<instance part="CON2" gate="MECH" x="43.18" y="17.78" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -437,6 +398,7 @@
 <net name="GND" class="2">
 <segment>
 <pinref part="CON1" gate="MECH" pin="MECH2"/>
+<wire x1="30.48" y1="20.32" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="12.7" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
@@ -445,25 +407,26 @@
 <pinref part="CON1" gate="MECH" pin="MECH1"/>
 <wire x1="17.78" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
 <junction x="30.48" y="10.16"/>
-<pinref part="CON2" gate="MECH" pin="MECH3"/>
-<wire x1="43.18" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
-<junction x="30.48" y="12.7"/>
-<pinref part="CON2" gate="MECH" pin="MECH2"/>
+<pinref part="CON2" gate="MECH" pin="MECH4"/>
 <wire x1="43.18" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <junction x="30.48" y="15.24"/>
-<pinref part="CON2" gate="MECH" pin="MECH1"/>
+<pinref part="CON2" gate="MECH" pin="MECH3"/>
 <wire x1="43.18" y1="17.78" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+<junction x="30.48" y="17.78"/>
+<pinref part="CON2" gate="MECH" pin="MECH2"/>
+<wire x1="43.18" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="POWER" pin="GND1"/>
 <wire x1="17.78" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="50.8" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<junction x="30.48" y="17.78"/>
+<junction x="30.48" y="20.32"/>
 <pinref part="CON1" gate="POWER" pin="GND2"/>
 <wire x1="30.48" y1="48.26" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="38.1" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <junction x="30.48" y="48.26"/>
 <pinref part="CON1" gate="POWER" pin="GND3"/>
@@ -500,6 +463,12 @@
 <wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="30.48" y="50.8"/>
+<pinref part="CON2" gate="MECH" pin="MECH1"/>
+<wire x1="43.18" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<junction x="30.48" y="22.86"/>
+<pinref part="CON2" gate="MECH" pin="MECH5"/>
+<wire x1="43.18" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+<junction x="30.48" y="12.7"/>
 </segment>
 </net>
 </nets>
