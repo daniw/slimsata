@@ -505,31 +505,31 @@
 </deviceset>
 <deviceset name="MOLEX_47300_KOMBI" prefix="CON" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SATA_DATA" x="-25.4" y="0"/>
-<gate name="G$2" symbol="SATA_POWER_6" x="0" y="0"/>
-<gate name="G$3" symbol="SATA_MECH_5" x="25.4" y="0"/>
+<gate name="DATA" symbol="SATA_DATA" x="-25.4" y="0"/>
+<gate name="POWER" symbol="SATA_POWER_6" x="0" y="0"/>
+<gate name="MECH" symbol="SATA_MECH_5" x="25.4" y="0"/>
 </gates>
 <devices>
 <device name="" package="MOLEX_47300-100X/101X/102X/103X">
 <connects>
-<connect gate="G$1" pin="A+" pad="S2"/>
-<connect gate="G$1" pin="A-" pad="S3"/>
-<connect gate="G$1" pin="B+" pad="S6"/>
-<connect gate="G$1" pin="B-" pad="S5"/>
-<connect gate="G$1" pin="GND1" pad="S1"/>
-<connect gate="G$1" pin="GND2" pad="S4"/>
-<connect gate="G$1" pin="GND3" pad="S7"/>
-<connect gate="G$2" pin="5V1" pad="P2"/>
-<connect gate="G$2" pin="5V2" pad="P3"/>
-<connect gate="G$2" pin="DIAG" pad="P4"/>
-<connect gate="G$2" pin="GND1" pad="P5"/>
-<connect gate="G$2" pin="GND2" pad="P6"/>
-<connect gate="G$2" pin="PRES" pad="P1"/>
-<connect gate="G$3" pin="MECH1" pad="MECH1"/>
-<connect gate="G$3" pin="MECH2" pad="MECH2"/>
-<connect gate="G$3" pin="MECH3" pad="MECH3"/>
-<connect gate="G$3" pin="MECH4" pad="MECH4"/>
-<connect gate="G$3" pin="MECH5" pad="MECH5"/>
+<connect gate="DATA" pin="A+" pad="S2"/>
+<connect gate="DATA" pin="A-" pad="S3"/>
+<connect gate="DATA" pin="B+" pad="S6"/>
+<connect gate="DATA" pin="B-" pad="S5"/>
+<connect gate="DATA" pin="GND1" pad="S1"/>
+<connect gate="DATA" pin="GND2" pad="S4"/>
+<connect gate="DATA" pin="GND3" pad="S7"/>
+<connect gate="MECH" pin="MECH1" pad="MECH1"/>
+<connect gate="MECH" pin="MECH2" pad="MECH2"/>
+<connect gate="MECH" pin="MECH3" pad="MECH3"/>
+<connect gate="MECH" pin="MECH4" pad="MECH4"/>
+<connect gate="MECH" pin="MECH5" pad="MECH5"/>
+<connect gate="POWER" pin="5V1" pad="P2"/>
+<connect gate="POWER" pin="5V2" pad="P3"/>
+<connect gate="POWER" pin="DIAG" pad="P4"/>
+<connect gate="POWER" pin="GND1" pad="P5"/>
+<connect gate="POWER" pin="GND2" pad="P6"/>
+<connect gate="POWER" pin="PRES" pad="P1"/>
 </connects>
 <technologies>
 <technology name=""/>
