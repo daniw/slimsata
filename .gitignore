@@ -1,5 +1,5 @@
 # Datasheets
-datasheets/
+datasheets/*.pdf
 
 # temporary LaTeX files
 *.aux
