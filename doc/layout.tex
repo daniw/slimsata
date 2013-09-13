@@ -9,9 +9,23 @@ Leitungslänge beachtet werden.
 
 \subsection{Impedanz}
 Die differentielle Impedanz soll $100 \Omega$ betragen. Dazu wird das Modell 
-der "'Edge coupled microstrip"' angewendet. 
-\[  \]
+für  angewendet. 
+\[ Z_d = \frac{174}{\sqrt{\varepsilon_r + 1.41}} \cdot 
+\ln \left(\frac{5.98 \cdot h}{0.8 \cdot w + t}\right) \cdot 
+\left(1 - 0.48 \cdot e^{-0.96 \cdot \frac{d}{h}}\right) \]
 Für die Berechnung der Impedanz wird der Rechner von 
-\url{http://www.eeweb.com/toolbox/edge-coupled-microstrip-impedance/} 
+\url{http://www.mantaro.com/resources/impedance_calculator.
+htm#differential_microstrip2_impedance} 
 eingesetzt. 
+Eine Impedanz von $100 \Omega~\pm 10 \%$ wird mit folgenden Werten erreicht: 
+\begin{tabular}{@{}llll}
+$w$             & Leiterbahnbreite          &   $34 mil$        \\
+$d$             & Leiterbahnabstand         &   $6 mil$         \\
+$t$             & Leiterbahndicke           &   $1.4 mil$       \\
+$h$             & Dicke der Platine         &   $59 mil$        \\
+$\varepsilon_r$ & Dielektrizitätskonstante  &   $4.2$           \\
+$Z_d$           & Differentielle Impedanz   &   $104.2 \Omega$  
+\end{tabular}
+
+\subsection{Leitungslänge}
 
